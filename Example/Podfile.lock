@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GPUImage (0.1.7)
+  - SSBFilter (0.1.0):
+    - GPUImage (~> 0.1.7)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SSBFilter (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - GPUImage
+
+EXTERNAL SOURCES:
+  SSBFilter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  SSBFilter: 22c13cf0962abdeb723be4ef958c834123bb1248
+
+PODFILE CHECKSUM: 24a8f56f0110e2bf050bbc7ebc71eb0a105b05ea
+
+COCOAPODS: 1.6.0.beta.2
