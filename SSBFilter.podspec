@@ -16,12 +16,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/AmatsuZero/SSBFilter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AmatsuZero' => 'jzh16s@hotmail.com' }
-  s.source           = { :git => 'https://github.com/AmatsuZero/SSBFilter.git' }
+  s.source           = { :git => 'https://github.com/AmatsuZero/SSBFilter.git', :commit => '5ee4a7b' }
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.0'
   s.source_files = 'SSBFilter/Classes/**/*'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'GPUImage', '~> 0.1.7'
 end
