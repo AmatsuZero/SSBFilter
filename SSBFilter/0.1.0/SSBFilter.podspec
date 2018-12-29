@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.swift_version = '4.0'
   s.source_files = 'SSBFilter/Classes/**/*'
   s.frameworks = 'UIKit'
-  s.dependency 'GPUImage', '~> 0.1.7'
+  s.dependency 'GPUImage'
 end
